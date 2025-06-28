@@ -1,0 +1,6 @@
+[submodule "visualboyadvance-m"]
+	path = visualboyadvance-m
+	url = https://github.com/SelimOzel/visualboyadvance-m
+[submodule "fireemblem8u"]
+	path = fireemblem8u
+	url = https://github.com/SelimOzel/fireemblem8u
