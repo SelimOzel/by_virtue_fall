@@ -14,3 +14,7 @@ git clone --recurse-submodules git@github.com:SelimOzel/by_virtue_fall.git # Don
 cd by_virtue_fall
 git submodule update --init --recursive # Only needed if cloned without --recurse-submodules
 ```
+
+```bash
+cd visualboyadvance-m/; ./installdeps;
+```
