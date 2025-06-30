@@ -4,3 +4,6 @@
 [submodule "fireemblem8u"]
 	path = fireemblem8u
 	url = https://github.com/SelimOzel/fireemblem8u
+[submodule "agbcc"]
+	path = agbcc
+	url = https://github.com/pret/agbcc.git
