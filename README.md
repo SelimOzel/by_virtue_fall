@@ -36,3 +36,22 @@ To play Fire Emblem: The Sacred Stones, you’ll need a GBA ROM:
 Once downloaded, place the .gba file on the root and rename it as `fireemblem8.gba`.
 
 ⚠️ **Legal reminder:** Downloading copyrighted ROMs is only legal if you own the original cartridge. Make sure you comply with your country's copyright laws.
+
+###  4. Running the Emulator with a Save State
+Once you've installed and built the emulator:
+
+Run the emulator:
+```bash
+./visualboyadvance-m
+```
+
+Inside the emulator, open the ROM:
+```bash
+File → Open → fireemblem8.gba
+```
+
+To load the save state fireemblem8-01.sgm, simply press:
+```bash
+F1
+```
+This will load the first save state slot. Make sure the .sgm file is named appropriately and located alongside the .gba file.
