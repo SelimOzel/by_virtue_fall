@@ -55,3 +55,17 @@ To load the save state fireemblem8-01.sgm, simply press:
 F1
 ```
 This will load the first save state slot. Make sure the .sgm file is named appropriately and located alongside the .gba file.
+
+### 5. Build the Modified Game Binary
+This project includes a modified version of the Fire Emblem: The Sacred Stones ROM, located in the `fireemblem8u` folder. This folder is a hard fork of commit `a24255765842b666e2aa98ac539d9d094985f3fe` from the FireEmblemUniverse repository. It was copied directly without preserving its `.git` history.
+
+To build the modified binary:
+```bash
+# follow the instructions inside the readme to install devkitARM and related tools
+make clean  # Run this first to avoid checksum errors
+make        # This will compile the modified ROM
+```
+
+⚠️ Important: You must run make clean before running make again. Otherwise, the build may silently succeed but generate a binary with an incorrect checksum that won't run properly.
+
+After successful compilation, the output `.gba` file will be ready for use with the emulator.
